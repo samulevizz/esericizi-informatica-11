@@ -7,13 +7,13 @@ public class Es6
     {
         Scanner in = new Scanner(System.in);
         System.out.print("Dimmi il primo numero: ");
-        int x = in.nextInt();
+        int primo_num = in.nextInt();
         System.out.print("Dimmi il secondo numero: ");
-        int y = in.nextInt();
+        int secondo_num = in.nextInt();
         System.out.print("Dimmi il terzo numero: ");
-        int z = in.nextInt();
+        int terzo_num = in.nextInt();
         
-        if (y-x==z-y)
+        if (secondo_num-primo_num==terzo_num-secondo_num)
             System.out.print("I numeri sono in progressione \n");
         else
             System.out.print("I numeri non sono in progressione \n");
