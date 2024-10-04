@@ -1,7 +1,8 @@
 package com.levizzari;
 import java.util.Scanner;
 
-public class Es3 {
+public class Es3 
+{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Dimmi quanti anni hai: ");
