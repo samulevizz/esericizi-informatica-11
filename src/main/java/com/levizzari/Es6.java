@@ -13,9 +13,11 @@ public class Es6
         System.out.print("Dimmi il terzo numero: ");
         int terzo_num = in.nextInt();
         
-        if (secondo_num-primo_num==terzo_num-secondo_num)
+        if (secondo_num-primo_num == terzo_num-secondo_num)
             System.out.print("I numeri sono in progressione \n");
         else
             System.out.print("I numeri non sono in progressione \n");
+        
+        in.close();
     }
 }
