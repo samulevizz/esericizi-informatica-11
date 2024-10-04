@@ -1,5 +1,4 @@
 package com.levizzari;
-
 import java.util.Scanner;
 
 public class Es2 {
