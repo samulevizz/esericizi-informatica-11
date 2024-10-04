@@ -17,5 +17,7 @@ public class Es3 {
             System.out.print("In America puoi prendere la patente \n");
         else 
             System.out.print("Non puoi prendere la patente \n");   
+        
+        in.close();
     }
 }
