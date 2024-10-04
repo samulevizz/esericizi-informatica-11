@@ -12,20 +12,12 @@ public class Es4
         int y = in.nextInt();
         
         if (x == 0 || y == 0)
-        {
             System.out.print("Non puoi divider per zero \n");
-        }
         if (x == y)
-        {
             System.out.print("I due numeri sono uguali \n");
-        }
         else if(x % y == 0)
-        {
             System.out.print("Il primo e' multiplo del secondo \n");
-        }
         else
-        {
             System.out.print("Non sono multipli \n"); 
-        }
     }
 }
