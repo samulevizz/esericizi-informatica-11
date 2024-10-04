@@ -19,5 +19,6 @@ public class Es4
             System.out.print("Il primo e' multiplo del secondo \n");
         else
             System.out.print("Non sono multipli \n"); 
+        in.close();
     }
 }
